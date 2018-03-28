@@ -1,0 +1,41 @@
+h1, h2 {
+  color: #d83c5b;
+  text-shadow: 2px 2px 2px gray;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+.title {
+  text-shadow: 3px 3px 2px black;
+}
+.jumbotron {
+  background-image: url(/images/record.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.jumbotron .container {
+  height: 300px;
+}
+
+.inline-header {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-right: 12px;
+}
+
+.default-hidden {
+display: none;
+}
+
+.form-group {
+  align-content: center;
+}
+.btn {
+  margin: .4em;
+}
+.list-group-item {
+  width: 60em;
+}
