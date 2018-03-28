@@ -11,6 +11,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // serve static files from public folder
 app.use(express.static(__dirname + '/public'));
 // const albumsRoute = require('./routes/albums');
+let ENV;
+
+try {
+  ENV = require('./env');
+} catch (ex) {
+  ENV = process.env;
+}
+mongoose.connect(ENV.MONGODB_URI);
 
 const db = require('./models');
 
