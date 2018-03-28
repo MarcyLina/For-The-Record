@@ -22,36 +22,14 @@ mongoose.connect(ENV.MONGODB_URI);
 
 const db = require('./models');
 
-/************
- * DATABASE *
- ************/
-
-/* hard-coded data */
-
-
-
-/**********
- * ROUTES *
- **********/
-
-/*
- * HTML Endpoints
- */
-
 app.get('/', function homepage (req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
-
-/*
- * JSON API Endpoints
- */
-
 app.get('/api', function api_index (req, res){
   res.json({
-    message: "Welcome to tunely!",
-    documentation_url: "https://github.com/tgaff/tunely/api.md",
-    base_url: "http://tunely.herokuapp.com",
+    message: "Welcome to For The Record!",
+    base_url: "https://pure-tor-64205.herokuapp.com/",
     endpoints: [
       {method: "GET", path: "/api", description: "Describes available endpoints"}
     ]
