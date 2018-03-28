@@ -242,9 +242,6 @@ function getAlbumHtml(album) {
   "              <div class='panel-body'>" +
   "              <!-- begin album internal row -->" +
   "                <div class='row'>" +
-  "                  <div class='col-md-3 col-xs-12 thumbnail album-art'>" +
-  "                     <img src='" + "http://placehold.it/400x400'" +  " alt='album image'>" +
-  "                  </div>" +
   "                  <div class='col-md-9 col-xs-12'>" +
   "                    <ul class='list-group'>" +
   "                      <li class='list-group-item'>" +
@@ -351,9 +348,6 @@ function renderAlbum(album) {
   "              <div class='panel-body'>" +
   "              <!-- begin album internal row -->" +
   "                <div class='row'>" +
-  "                  <div class='col-md-3 col-xs-12 thumbnail album-art'>" +
-  "                     <img src='" + "http://placehold.it/400x400'" +  " alt='album image'>" +
-  "                  </div>" +
   "                  <div class='col-md-9 col-xs-12'>" +
   "                    <ul class='list-group'>" +
   "                      <li class='list-group-item'>" +
